@@ -1,0 +1,79 @@
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .menu-container, .chef-container {
+        flex-wrap: wrap;
+    }
+
+    .menu-item, .chef {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        height: 50vh;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .menu-item, .chef {
+        width: 90%;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 40vh;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .menu-item, .chef {
+        width: 100%;
+    }
+
+    .about-content {
+        padding: 20px;
+    }
+
+    .about-content h2 {
+        font-size: 24px;
+    }
+
+    .footer {
+        padding: 15px 5px;
+    }
+}
